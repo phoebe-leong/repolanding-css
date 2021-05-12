@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url("./font-families/RobotoMono-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Reg';
+    src: url("./font-families/RobotoMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url("./font-families/RobotoMono-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url("./font-families/RobotoMono-ExtraLightItalic.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-BoldItalic';
+    src: url("./font-families/RobotoMono-BoldItalic.ttf");
+}
+
+html {
+    background-color: #fcf1f1;
+    color: #1a1c20;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto-Bold';
+}
+
+main h2 {
+    font-family: 'Roboto-Bold';
+}
+
+main p, li {
+    font-family: 'Roboto-Reg';
+}
+
+#footer {
+    text-align: center;
+    font-family: 'Roboto-LightItalic';
+    padding-top: 20px;
+}
+
+button {
+    border: 2px solid #1a1c20;
+    padding: 10px;
+    background-color: #fcf1f1;
+    width: 110px;
+    height: 50px;
+    font-family: 'Roboto-Reg';
+}
+
+button:hover, button:focus {
+    cursor: pointer;
+    background-color: #1a1c20;
+    color: #fcf1f1;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1c20;
+}
+
+a:hover, a:focus {
+    font-family: 'Roboto-BoldItalic';
+}
