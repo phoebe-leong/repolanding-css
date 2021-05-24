@@ -1,2 +1,2 @@
 # repolanding-css
-css file for my project landing pages.
+CSS and HTML file for my project landing pages.

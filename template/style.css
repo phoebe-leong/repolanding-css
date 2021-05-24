@@ -1,27 +1,27 @@
 
 @font-face {
     font-family: 'Roboto-Bold';
-    src: url("./font-families/RobotoMono-Bold.ttf");
+    src: url("../font-families/RobotoMono-Bold.ttf");
 }
 
 @font-face {
     font-family: 'Roboto-Reg';
-    src: url("./font-families/RobotoMono-Regular.ttf");
+    src: url("../font-families/RobotoMono-Regular.ttf");
 }
 
 @font-face {
     font-family: 'Roboto-Light';
-    src: url("./font-families/RobotoMono-ExtraLight.ttf");
+    src: url("../font-families/RobotoMono-ExtraLight.ttf");
 }
 
 @font-face {
     font-family: 'Roboto-LightItalic';
-    src: url("./font-families/RobotoMono-ExtraLightItalic.ttf");
+    src: url("../font-families/RobotoMono-ExtraLightItalic.ttf");
 }
 
 @font-face {
     font-family: 'Roboto-BoldItalic';
-    src: url("./font-families/RobotoMono-BoldItalic.ttf");
+    src: url("../font-families/RobotoMono-BoldItalic.ttf");
 }
 
 html {
@@ -38,7 +38,7 @@ main h2 {
     font-family: 'Roboto-Bold';
 }
 
-main p, li {
+main p, li, main a {
     font-family: 'Roboto-Reg';
 }
 
@@ -46,11 +46,6 @@ main p, li {
     text-align: center;
     font-family: 'Roboto-LightItalic';
     padding-top: 20px;
-}
-
-#footer a:hover {
-    cursor: pointer;
-    font-family: 'Roboto-BoldItalic';
 }
 
 button {
@@ -73,6 +68,12 @@ a {
     color: #1a1c20;
 }
 
-a:hover, a:focus {
+#footer a:hover, #footer a:focus {
+    cursor: pointer;
     font-family: 'Roboto-BoldItalic';
+}
+
+main a:hover, main a:focus {
+    cursor: pointer;
+    font-family: 'Roboto-Bold';
 }
